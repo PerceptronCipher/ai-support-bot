@@ -1,6 +1,6 @@
 'use client'
 
-const BASE_URL = 'https://ai-support-bot-blo4.onrender.com'
+const BASE_URL = 'https://api-support-bot.buildoninc.org'
 
 export const extractionService = {
   /**

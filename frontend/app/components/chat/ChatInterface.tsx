@@ -40,7 +40,7 @@ export default function ChatInterface() {
 
     try {
       const response = await fetch(
-        'https://ai-support-bot-blo4.onrender.com/chat',
+        'https://api-support-bot.buildoninc.org/chat',
         {
           method: 'POST',
           headers: {

@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+openai
+faiss-cpu
+numpy
+pandas
+python-docx
+PyPDF2
+python-multipart

@@ -138,7 +138,7 @@ export default function UploadKnowledge({
     setIsUploading(true)
     try {
       const response = await fetch(
-        'https://ai-support-bot-blo4.onrender.com/admin/upload',
+        'https://api-support-bot.buildoninc.org/admin/upload',
         {
           method: 'POST',
           body: formData, // Sending FormData automatically sets the correct Content-Type
