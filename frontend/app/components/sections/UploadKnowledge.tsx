@@ -10,6 +10,25 @@
 //   const [isUploading, setIsUploading] = useState(false)
 //   const [url, setUrl] = useState('')
 
+  const handleScan = async () => {
+    if (!url) return
+    setIsUploading(true)
+    try {
+      const response = await fetch('https://api-support-bot.buildoninc.org/admin/scrape', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url }),
+      })
+      if (!response.ok) throw new Error('Scrape failed')
+      onUploadSuccess()
+    } catch (err) {
+      console.error(err)
+    } finally {
+      setIsUploading(false)
+    }
+  }
+
+
 //   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
 //     const file = e.target.files?.[0]
 //     if (!file) return
@@ -126,6 +145,25 @@ export default function UploadKnowledge({
 }: UploadKnowledgeProps) {
   const [isUploading, setIsUploading] = useState(false)
   const [url, setUrl] = useState('')
+
+  const handleScan = async () => {
+    if (!url) return
+    setIsUploading(true)
+    try {
+      const response = await fetch('https://api-support-bot.buildoninc.org/admin/scrape', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ url }),
+      })
+      if (!response.ok) throw new Error('Scrape failed')
+      onUploadSuccess()
+    } catch (err) {
+      console.error(err)
+    } finally {
+      setIsUploading(false)
+    }
+  }
+
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0]
