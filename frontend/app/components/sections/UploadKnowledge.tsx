@@ -271,7 +271,7 @@ export default function UploadKnowledge({
                 className='w-full pl-14 pr-6 py-5 bg-white border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-blue-500/20 font-medium transition-all outline-none'
               />
             </div>
-            <Button className='bg-slate-900 text-white px-10 py-5 rounded-2xl font-bold hover:bg-black transition-colors shadow-lg shadow-slate-100'>
+            <Button onClick={handleScan} className='bg-slate-900 text-white px-10 py-5 rounded-2xl font-bold hover:bg-black transition-colors shadow-lg shadow-slate-100'>
               Scan website
             </Button>
           </div>
