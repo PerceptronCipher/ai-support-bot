@@ -155,7 +155,7 @@ export default function UploadKnowledge({
         body: JSON.stringify({ url }),
       })
       if (!response.ok) throw new Error('Scrape failed')
-      onUploadSuccess()
+      onUploadSuccess?.()
     } catch (err) {
       console.error(err)
     } finally {
