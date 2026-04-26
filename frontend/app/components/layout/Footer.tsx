@@ -3,10 +3,7 @@
 import React from 'react'
 import Link from 'next/link'
 import {
-  FaShareNodes,
-  FaInstagram,
-  FaXTwitter,
-  FaLinkedinIn,
+  FaXTwitter
 } from 'react-icons/fa6'
 import Button from '../shared/Button'
 
@@ -40,13 +37,7 @@ export default function Footer() {
     },
   ]
 
-  const socialLinks = [
-    { Icon: FaShareNodes, label: 'Share', color: 'text-slate-600' },
-    { Icon: FaInstagram, label: 'Instagram', color: 'text-blue-700' },
-    { Icon: FaXTwitter, label: 'X (Twitter)', color: 'text-blue-600' },
-    { Icon: FaLinkedinIn, label: 'LinkedIn', color: 'text-blue-800' },
-  ]
-
+ 
   return (
     <footer className='w-full'>
       {/* 1. Docs / Integrations Section */}
@@ -96,8 +87,8 @@ export default function Footer() {
           <div className='grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8 mb-16'>
             {/* Branding Column - Centered on mobile, Left on LG */}
             <div className='flex flex-col items-center lg:items-start text-center lg:text-left'>
-              <h3 className='text-2xl font-black text-slate-900 mb-4'>
-                Customer support AI
+              <h3 className='text-2xl font-black font-sans text-slate-900 mb-4'>
+                MUGZ
               </h3>
               <p className='text-slate-500 font-medium max-w-sm mb-8 leading-relaxed'>
                 Upload your business data, chat with the AI, and watch it learn
@@ -106,15 +97,15 @@ export default function Footer() {
 
               {/* Social Icons - Center on Mobile, Left on LG */}
               <div className='flex justify-center lg:justify-start gap-3 mb-8 lg:mb-0'>
-                {socialLinks.map(({ Icon, label, color }, idx) => (
-                  <button
-                    key={idx}
-                    aria-label={label}
+                
+                  <Link
+                    href="https://x.com/mugzoneth?s=21"
+                    
                     className='w-12 h-12 bg-white/80 backdrop-blur-sm rounded-full flex items-center justify-center shadow-sm hover:scale-110 transition-transform'
                   >
-                    <Icon size={20} className={color} />
-                  </button>
-                ))}
+                    <FaXTwitter size={20} className="text-blue-600" />
+                  </Link>
+               
               </div>
             </div>
 
