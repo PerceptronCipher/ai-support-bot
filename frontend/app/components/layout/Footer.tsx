@@ -87,9 +87,9 @@ export default function Footer() {
           <div className='grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8 mb-16'>
             {/* Branding Column - Centered on mobile, Left on LG */}
             <div className='flex flex-col items-center lg:items-start text-center lg:text-left'>
-              <h3 className='text-2xl font-black font-sans text-slate-900 mb-4'>
-                MUGZ
-              </h3>
+              <span className='text-2xl font-sans font-black tracking-tight text-slate-900'>
+                <span className='text-[#003D9B]'>MUGZ</span>
+              </span>
               <p className='text-slate-500 font-medium max-w-sm mb-8 leading-relaxed'>
                 Upload your business data, chat with the AI, and watch it learn
                 in real-time.
