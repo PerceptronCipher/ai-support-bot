@@ -176,8 +176,8 @@ export default function Navbar() {
       <div className='max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 h-20 flex items-center justify-between relative'>
         {/* Logo */}
         <Link href='/' className='flex items-center z-10'>
-          <span className='text-2xl font-black tracking-tight text-slate-900'>
-            Support<span className='text-[#003D9B]'>AI</span>
+          <span className='text-2xl font-sans font-black tracking-tight text-slate-900'>
+            <span className='text-[#003D9B]'>MUGZ</span>
           </span>
         </Link>
 
