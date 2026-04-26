@@ -1,4 +1,4 @@
-// 'use client'
+'use client'
 
 // import React, { useState } from 'react'
 // import { Upload, FileText, Globe, Loader2 } from 'lucide-react'
@@ -128,7 +128,6 @@
 //   )
 // }
 
-'use client'
 
 import React, { useState } from 'react'
 import { Upload, FileText, Globe, Loader2 } from 'lucide-react'
