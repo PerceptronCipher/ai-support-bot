@@ -88,7 +88,7 @@ export default function Footer() {
             {/* Branding Column - Centered on mobile, Left on LG */}
             <div className='flex flex-col items-center lg:items-start text-center lg:text-left'>
               <h3 className='text-2xl font-sans font-black tracking-tight text-slate-900'>
-                <span className='text-[#003D9B]'>MUGZ</span>
+                <span className='text-[#003D9B]'>Atlas</span>
               </h3>
               <p className='text-slate-500 font-medium max-w-sm mb-8 leading-relaxed'>
                 Upload your business data, chat with the AI, and watch it learn
@@ -99,7 +99,7 @@ export default function Footer() {
               <div className='flex justify-center lg:justify-start gap-3 mb-8 lg:mb-0'>
                 
                   <Link
-                    href="https://x.com/mugzoneth?s=21"
+                    href="https://x.com/Atlasoneth?s=21"
                     
                     className='w-12 h-12 bg-white/80 backdrop-blur-sm rounded-full flex items-center justify-center shadow-sm hover:scale-110 transition-transform'
                   >
