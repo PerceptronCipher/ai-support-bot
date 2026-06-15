@@ -99,7 +99,7 @@ export default function Footer() {
               <div className='flex justify-center lg:justify-start gap-3 mb-8 lg:mb-0'>
                 
                   <Link
-                    href="https://x.com/Atlasoneth?s=21"
+                    href="https://x.com/mugzoneth?s=21"
                     
                     className='w-12 h-12 bg-white/80 backdrop-blur-sm rounded-full flex items-center justify-center shadow-sm hover:scale-110 transition-transform'
                   >
