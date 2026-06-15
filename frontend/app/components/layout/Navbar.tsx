@@ -177,7 +177,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href='/' className='flex items-center z-10'>
           <span className='text-2xl font-sans font-black tracking-tight text-slate-900'>
-            <span className='text-[#003D9B]'>MUGZ</span>
+            <span className='text-[#003D9B]'>Atlas</span>
           </span>
         </Link>
 
