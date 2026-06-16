@@ -7,7 +7,7 @@ import Footer from '@/app/components/layout/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'SupportAI | Smarter Customer Support Powered By AI',
+  title: 'Atlas | Smarter Customer Support Powered By AI',
   description:
     'Train a chatbot on your business data and deliver instant, accurate responses 24/7.',
 }
