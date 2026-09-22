@@ -3,16 +3,6 @@
 > Built by [BuildON](https://builon.com) for [JustXend](https://justxend.com)
 
 An AI-powered customer support bot that reads your company documents and answers customer questions instantly — 24/7, no human needed.
-
----
-
-## Live Demo
-
-| Service | URL |
-|---|---|
-| Backend API | https://ai-support-bot-blo4.onrender.com/docs |
-| Frontend | _Coming soon_ |
-
 ---
 
 ## What It Does
